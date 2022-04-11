@@ -1,0 +1,14 @@
+
+/** Book List: 
+The Notebook (9)
+A Walk To Remember (10)
+Dear John (8)
+Safe House (8)
+The Lucky One (10)
+**/
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO books VALUES (1, "The Notebook", 9);
+INSERT INTO books VALUES (2, "A Walk To Remember", 10);
+INSERT INTO books VALUES (3, "Dear John", 8);
